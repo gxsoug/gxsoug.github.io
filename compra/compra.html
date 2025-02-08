@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Compra</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <style>
+        :root {
+            --primary-color: #333; /* Color primario del footer */
+            --secondary-color: #ff9900; /* Color secundario */
+            --text-color: #fff; /* Color del texto */
+            --bg-color: #f4f4f4; /* Color del fondo */
+            --hover-color: #e88e00;
+            --container-bg-color: #fff; /* Color del fondo del contenedor */
+            --container-shadow: rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            padding: 10px 0;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: var(--container-bg-color);
+            box-shadow: 0 4px 8px var(--container-shadow);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: var(--primary-color);
+        }
+
+        .btn-buy {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-buy:hover {
+            background-color: var(--hover-color);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .whatsapp-link {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .whatsapp-link:hover {
+            color: var(--hover-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto y Compra</h1>
+    </header>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contáctanos</h2>
+            <p>Nombres: Agus y Sofi</p>
+            <p>Realice su pedido acá: <a href="https://w.app/mbzyug" class="whatsapp-link" target="_blank">https://w.app/mbzyug</a></p>
+            <p>Mercado Pago: vultaggiosofia15</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Agus y Sofi</p>
+    </footer>
+</body>
+</html>
+
+
